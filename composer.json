@@ -1,0 +1,20 @@
+{
+    "name": "smtpmailer/smtpmailer",
+    "description": "A simple, secure SMTP Client library written in PHP, only supports TLS, SSL",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DiLong Fa",
+            "email": "dilongfa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SMTPMailer\\SMTPMailer\\": "src/"
+        }
+    }
+}
