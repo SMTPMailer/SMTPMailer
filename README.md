@@ -11,17 +11,16 @@ $ composer require smptmailer/smtpmailer
 
 ## Usage
 ``` php
-use SMTPMailer\Mailer;
+<?php
 
-$mail = new Mailer([
-    'host'      => 'smtp.example.com'
-    'port'      => 587
-    'secure'    => 'tls'
-    'username'  => 'user@example.com'
-    'password'  => 'password'
-]);
+$mail = new SMTPMailer\Mailer('smtp.example.com', 587, 'tls');
+$mail->setAuth('username@example.com', 'password');
+$mail->setFrom('sender@example.com', 'Sender Name');
+$mail->setTo('recipient@example.com', 'Recipient Name');
+$mail->setSubject('Subject...');
+$mail->setBody('Body...');
 
-if ($mail->send('recipient@example.com', 'Subject...', 'Body...')) {
+if ($mail->send()) {
     echo "Sent successfully";
 } else {
     echo "Sent failed";
