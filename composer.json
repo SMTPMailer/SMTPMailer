@@ -1,5 +1,5 @@
 {
-    "name": "smtpmailer/smtpmailer",
+    "name": "dilongfa/smtpmailer",
     "description": "A simple, secure SMTP Client library written in PHP, only supports TLS, SSL",
     "type": "library",
     "license": "MIT",

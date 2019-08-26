@@ -6,7 +6,7 @@ A simple, lightweight and secure SMTP Client library written in PHP, only suppor
 Via Composer
 
 ``` bash
-$ composer require smptmailer/smtpmailer
+$ composer require dilongfa/smtpmailer
 ```
 
 ## Usage
@@ -38,6 +38,6 @@ If you discover any security related issues, please email dilongfa@gmail.com ins
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[link-packagist]: https://packagist.org/packages/smtpmailer/smtpmailer
-[link-downloads]: https://packagist.org/packages/smtpmailer/smtpmailer
+[link-packagist]: https://packagist.org/packages/dilongfa/smtpmailer
+[link-downloads]: https://packagist.org/packages/dilongfa/smtpmailer
 [link-author]: https://github.com/dilongfa
